@@ -1,3 +1,4 @@
+
 @import url(https://fonts.googleapis.com/css?family=Oswald:400,700);
 
 body{
@@ -42,18 +43,22 @@ h1::after{
     transform: skewX(45deg);
 }
 
+/* Mensaje de bienvenida */
 
-/* formulario */
-
-form{
+h2{
+    position:relative;
+    transform: skewY(-1deg);
     text-align: center;
-    background-color:   #3e3f46;
+    font-family: Oswald;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 0.05em;
+    background-color:  #3e3f46;
     margin-left: 15%;
     margin-right: 15%;
-    transform: skewY(-1deg);
 }
 
-form::before{
+h2:before{
     display: flex;
     content:"";
     position: absolute;
@@ -66,7 +71,7 @@ form::before{
     transform: skewY(45deg);
 }
 
-form::after{
+h2::after{
     content: "";
     position: absolute;
     top:-40px;
@@ -77,31 +82,7 @@ form::after{
     transform: skewX(45deg);
 }
 
-.form-group{
-    font-family: Oswald;
-    color:  white;
-}
-
-input{
-    color: white;
-    background:  #683880;
-    transition: 0.5s;
-}
-
-input:hover{
-    background:  rgb(40, 203, 146);
-    transform: translateX(-5px)
-}
-
-.btn-primary{
-    color: white;
-    font-family: Oswald;
-    font-size: 15px;
-    background-color: #2e3133;
-    width: 20px;
-}
-
-/* regreso a menu principal */
+/* regreso a formulario de registro */
 
 p{
     text-align: center;
