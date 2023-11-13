@@ -9,8 +9,9 @@
     $count = mysqli_num_rows($result);
 
     if($count ==1 ){
-        echo'El nombre se usuario ya a sido ocupado';
-        header('Location: ./reistrar_usuario.php');
+        echo "<br/><br/><br/>" . "<h1>" . "LO SENTIMOS, EL USUARIO YA HA SIDO REGISTRADO" . "</h1>";
+        echo "<br/><br/>"."<p>" . "<a href='./registrar_usuario.php'>VOLVER A REGISTRO DE USUARIO</a>" . "</p>";
+        echo "<br/><br/>"."<p>" . "<a href='./index.html'>VOLVER A MENÚ PRINCIPAL</a>" . "</p>";
         
     }else{
         mysqli_query($conexion, "INSERT INTO usuarios (
@@ -29,10 +30,10 @@
         '$_POST[password]'        
         )");
 
-    echo "<br/><br/><br/>" . "<h1>" . "Usuario Registrado Exitosamente!" . "</h1>";
+    echo "<br/><br/><br/>" . "<h1>" . "USUARIO REGISTRADO EXITOSAMENTE!" . "</h1>";
     echo "<br/><br/>"."<h2>" . "Bienvenido: " . $_POST['usuario'] . "</h2>" . "\n\n";
-    echo "<br/><br/>"."<p>" . "<a href='./registrar_usuario.php'>Regresar al registro</a>" . "</p>";
-
+    echo "<br/><br/>"."<p>" . "<a href='./registrar_usuario.php'>REGISTRO DE USUARIO</a>" . "</p>";
+    echo "<br/><br/>"."<p>" . "<a href='./index.html'>MENÚ PRINCIPAL</a>" . "</p>";
     //termina el else
     }
 ?>

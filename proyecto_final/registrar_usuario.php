@@ -72,8 +72,8 @@
         </div>
         <br/><br/>
 
-        <input type="submit" name="submit" class="btn btn-primary" value="Registrarme">
-        <input type="reset" name="clear" class="btn btn-primary" value="Borrar">    
+        <input type="submit" name="submit" class="btn btn-primary" value="REGISTRARME">
+        <input type="reset" name="clear" class="btn btn-primary" value="BORRAR REGISTROS">    
         <br><br>
     </form>
 
