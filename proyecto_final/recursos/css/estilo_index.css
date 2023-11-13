@@ -51,7 +51,7 @@ h1::after{
 }
 
 h1:last-child::after{
-    box-shadow: 190px 220px 20px rgba(0,0,0,0.25);
+    box-shadow: 190px 220px 20px rgb(0, 0, 0);
 }
 
 ul {
@@ -127,5 +127,5 @@ li:hover a {
 }
 
 li:last-child::after{
-    box-shadow: -120px 120px 20px rgba(0,0,0,0.25);
+    box-shadow: -120px 120px 20px rgb(0, 0, 0);
 }
