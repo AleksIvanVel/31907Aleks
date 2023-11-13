@@ -31,7 +31,7 @@
         )");
 
     echo "<br/><br/><br/>" . "<h1>" . "USUARIO REGISTRADO EXITOSAMENTE!" . "</h1>";
-    echo "<br/><br/>"."<h2>" . "Bienvenido: " . $_POST['usuario'] . "</h2>" . "\n\n";
+    echo "<br/><br/>"."<h2>" . "Bienvenido: " . $_POST['usuario'] .", ahora estas registrado en nuestra base de datos :)". "</h2>" . "\n\n";
     echo "<br/><br/>"."<p>" . "<a href='./registrar_usuario.php'>REGISTRO DE USUARIO</a>" . "</p>";
     echo "<br/><br/>"."<p>" . "<a href='./index.html'>MENÚ PRINCIPAL</a>" . "</p>";
     //termina el else
