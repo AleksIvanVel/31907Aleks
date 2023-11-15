@@ -31,6 +31,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Eliminar</title>
     <link rel="stylesheet" href="recursos/css/estilo_submit_eliminar.css">
+    <link rel="shortcut icon" href="recursos/img/logofavicon.jpg" type="image/x-icon">
 </head>
 <body>
     

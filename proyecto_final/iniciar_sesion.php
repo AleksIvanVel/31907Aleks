@@ -7,6 +7,7 @@
     <title>Iniciar sesion</title>
     <meta charset = "utf-8">
     <link rel="stylesheet" href="recursos/css/estilo_iniciar_sesion.css">
+    <link rel="shortcut icon" href="recursos/img/logofavicon.jpg" type="image/x-icon">
 </head>
 
 <script>

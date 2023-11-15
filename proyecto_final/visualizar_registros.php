@@ -56,6 +56,7 @@ if ( $count>0 ){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registros</title>
     <link rel="stylesheet" href="recursos/css/estilo_visualizacion_registros.css">
+    <link rel="shortcut icon" href="recursos/img/logofavicon.jpg" type="image/x-icon">
 </head>
 <body>
     

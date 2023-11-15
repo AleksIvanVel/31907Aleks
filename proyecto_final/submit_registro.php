@@ -44,6 +44,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
     <link rel="stylesheet" href="recursos/css/estilo_submit_registro.css">
+    <link rel="shortcut icon" href="recursos/img/logofavicon.jpg" type="image/x-icon">
 </head>
 <body>
     

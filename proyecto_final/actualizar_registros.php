@@ -4,9 +4,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Eliminar Usuario</title>
+    <title>Actualizar registro</title>
     <meta charset = "utf-8">
-    <link rel="stylesheet" href="recursos/css/estilo_eliminar_usuario.css">
+    <link rel="stylesheet" href="recursos/css/estilo_registro_usuario.css">
     <link rel="shortcut icon" href="recursos/img/logofavicon.jpg" type="image/x-icon">
 </head>
 
@@ -27,9 +27,30 @@
 
 <body>
     <br><br>
-    <h1>ElLIMINAR USUARIO</h1>
+    <h1>ACTUALIZAR REGISTRO</h1>
     <br><br>
-    <form action="submit_eliminar.php" method="post">
+    <form action="submit_registro.php" method="post">
+
+        <!--Nombre-->
+        <div class="form-group">
+            <label for="nombre">Nombre Completo:</label><br>
+            <input type="text" name="usuario" maxlength="255"  required>
+            <br/><br/>
+        </div>
+
+        <!-- Direcion -->
+        <div class="form-group">
+            <label for="direcion">Dirección:</label><br>
+            <input type="text" name="direccion" maxlength="255" required>
+             <br/><br/>
+        </div>
+
+        <!-- Telefono -->
+        <div class="form-group">
+            <label for="telefono">Telefono:</label><br>
+            <input type="text" onkeypress="return valida(event)" name="telefono" maxlength="15" required>
+            <br/><br/>
+        </div>
 
         <!-- correo -->
         <div class="form-group">
@@ -52,12 +73,12 @@
         </div>
         <br/><br/>
 
-        <input type="submit" name="eliminar" class="btn btn-primary" value="ELIMINAR USUARIO">
+        <input type="submit" name="submit" class="btn btn-primary" value="REGISTRARME">
         <input type="reset" name="clear" class="btn btn-primary" value="BORRAR REGISTROS">    
         <br><br>
     </form>
 
-    <br><br><br>
+    <br><br>
 
     <p style="--i:1"class="menu_principal"><a href="index.html">Menú principal</a></p>
  </body>

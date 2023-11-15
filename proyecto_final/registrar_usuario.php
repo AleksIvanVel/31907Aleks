@@ -7,6 +7,7 @@
     <title>Registrar Usuario</title>
     <meta charset = "utf-8">
     <link rel="stylesheet" href="recursos/css/estilo_registro_usuario.css">
+    <link rel="shortcut icon" href="recursos/img/logofavicon.jpg" type="image/x-icon">
 </head>
 
 <script>
