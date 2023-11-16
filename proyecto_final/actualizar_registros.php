@@ -27,9 +27,9 @@
 
 <body>
     <br><br>
-    <h1>ACTUALIZAR REGISTRO</h1>
+    <h1>ACTUALIZAR DATOS</h1>
     <br><br>
-    <form action="submit_registro.php" method="post">
+    <form action="submit_actualizar_registros.php" method="post">
 
         <!--Nombre-->
         <div class="form-group">
@@ -58,19 +58,7 @@
             <input type="email" name="correo" maxlength="35" required>
             <br/><br/>
         </div>
-
-        <!--Nombre_usuario-->
-        <div class="form-group">
-            <label for="nombre">Nombre Usuario:</label><br>
-            <input type="text" name="nombre_usuario" maxlength="255"  required>
-            <br/><br/>
-        </div>
-
-        <!--Password-->
-        <div class="form-group">
-            <label for="pass">Password:</label><br>
-            <input type="password" name="password" maxlength="8" required>
-        </div>
+    
         <br/><br/>
 
         <input type="submit" name="submit" class="btn btn-primary" value="ACTUALIZAR DATOS">

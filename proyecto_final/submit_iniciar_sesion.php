@@ -11,6 +11,7 @@
     if($count ==1 ){
         echo "<br/><br/><br/>" . "<h1>" . "SESIÓN INICIADA" . "</h1>";
         echo "<br/><br/>"."<h2>" . "Bienvenido: " . $_POST['nombre_usuario'] . "</h2>" . "\n\n";
+        echo "<br/><br/>"."<p>" . "<a href='./actualizar_registros.php'>ACTUALIZAR DATOS</a>" . "</p>";
         echo "<br/><br/>"."<p>" . "<a href='./index.html'>VOLVER A MENÚ PRINCIPAL</a>" . "</p>";
         
     }else{
