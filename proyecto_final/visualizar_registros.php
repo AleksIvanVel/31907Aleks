@@ -15,7 +15,7 @@ $count = mysqli_num_rows($resultado);
  
 echo "
 
-    <br> <br> <br>
+    <br> <br> <br> <br> <br>
     <table border='2' >
     <tr>
         <th>ID</th>
@@ -42,10 +42,10 @@ if ( $count>0 ){
 }else{
     
     
-    echo"<h1 style='color:red' >Sin Ningun registro</h1>";
+    echo"<h1>SIN NINGUN REGISTRO</h1>";
     }
 
-    echo "<br><br><br><h1><a href='index.html'>VOVLER A MENÚ PRINCIPAL</a></h1>";
+    echo "<br><br><br><h1><a href='index.html'>VOVLER A MENÚ PRINCIPAL</a></h1><br><br><br>";
 
 ?>
 
