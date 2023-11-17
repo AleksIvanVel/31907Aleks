@@ -4,7 +4,7 @@
     mysqli_set_charset($conexion,'utf8');
 
     //declaracion de varibales para formulario
-    $buscarUsuario = "SELECT * FROM usuarios where nombre = '$_POST[usuario]'";
+    $buscarUsuario = "SELECT * FROM usuarios where nombre_usuario = '$_POST[nombre_usuario]'";
     $result = $conexion -> query($buscarUsuario);
     $count = mysqli_num_rows($result);
 
@@ -16,7 +16,7 @@
              telefono = '$_POST[telefono]',
              correo = '$_POST[correo]'            
              WHERE
-             nombre = '$_POST[usuario]");
+             nombre_usuario = '$_POST[nombre_usuario]'");
     
         echo "<br/><br/><br/>" . "<h1>" . "DATOS ACTUALIZADOS EXITOSAMENTE!" . "</h1>";
         echo "<br/><br/>"."<p>" . "<a href='./index.html'>VOLVER A MENÚ PRINCIPAL</a>" . "</p>";
